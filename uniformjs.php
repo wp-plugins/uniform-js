@@ -1,6 +1,6 @@
 <?php 
 /*
-Plugin Name: Uniform JS Integration
+Plugin Name: WP UniformJS
 Plugin URI: http://matthewwoodard.com
 Version: 1.0
 Author: Matthew Woodard
