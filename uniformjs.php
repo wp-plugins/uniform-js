@@ -5,7 +5,7 @@ Plugin URI: http://matthewwoodard.com
 Version: 1.0
 Author: Matthew Woodard
 Author URI: http://matthewwoodard.com
-Description: Adds Uniform JS (sexy forms with jQuery) to wordpress your wordpress forms.
+Description: Adds Uniform JS (sexy forms with jQuery) to your wordpress forms.
 */
 
 // Exit if accessed directly
@@ -17,7 +17,7 @@ $uniformjs_options = get_option('uniformjssettings');
 $uniformjs_style = $uniformjs_options['style'];
 $uniformjs_elements = $uniformjs_options['elements'];
 
-//add uniform script to wp_scripts
+//add uniform script to wp_scripts after jquery
 
 function uniformjs_scripts()  {  
 
@@ -94,9 +94,8 @@ function uniformjs_styles()  {
 }  
 add_action( 'wp_enqueue_scripts', 'uniformjs_styles' );
 
-// uniformjs user set selectors
-
-add_action('wp_print_scripts','uniformjs_selectors');
+// uniformjs user set selectors in footer scripts
+add_action('wp_footer', 'uniformjs_selectors');
 	
 	function uniformjs_selectors() {
 		$uniformjs_options = get_option('uniformjssettings');
