@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP UniformJS
 Plugin URI: http://matthewwoodard.com
-Version: 1.0
+Version: 1.1
 Author: Matthew Woodard
 Author URI: http://matthewwoodard.com
 Description: Adds Uniform JS (sexy forms with jQuery) to your wordpress forms.

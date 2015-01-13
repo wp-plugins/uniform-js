@@ -3,10 +3,10 @@ Contributors: matthewwoodard
 Donate link: http://matthewwoodard.com/
 Tags: forms, ui, jquery forms, form styling
 Requires at least: 3.0.1
-Tested up to: 3.5.1
-Stable tag: 1.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tested up to: 4.0
+Stable tag: 1.1
+License: MIT
+License URI: http://opensource.org/licenses/mit-license.php
 
 Adds Uniform JS (sexy forms with jQuery) to your wordpress forms.
 
@@ -45,7 +45,11 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 == Upgrade Notice ==
 
 = 1.0 =
-This is the forst stable release, no upgrades available at this time.
+This is the first stable release, no upgrades available at this time.
+
+= 1.1 =
+Updated to MIT license.
+Updated to uniformjs v2.1.1
 
 == Arbitrary section ==
 
