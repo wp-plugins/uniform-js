@@ -16,6 +16,15 @@ If you are fed up with trying to style your form elements to look the same in al
 
 It implements the jQuery plugin <a href="http://uniformjs.com/" target="_blank">UniformJS</a> to any form element you choose. Includes 3 styles to choose from and you have the ability to make your own styles as well.
 
+Works with:
+<ul>
+<li><a href="https://wordpress.org/plugins/visual-form-builder/" target="_blank">Visual Form Builder</a></li>
+<li><a href="https://wordpress.org/plugins/contact-form-7/" target="_blank">Contact Form 7</a></li>
+<li><a href="https://wordpress.org/plugins/ninja-forms/" target="_blank">Ninja Forms</a></li>
+<li><a href="http://www.gravityforms.com/" target="_blank">Gravity Forms</a></li>
+<li>& More</li>
+</ul>
+
 == Installation ==
 
 1. Upload `uniform-js.zip` to the `/wp-content/plugins/` directory
